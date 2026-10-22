@@ -39,6 +39,29 @@ wget "https://huggingface.co/datasets/omniretarget/OmniRetarget_Dataset/resolve/
 unzip robot-object.zip
 ```
 
+#### Converting HOI-Retarget references
+
+Download HOI-Retarget retargeted dataset.
+```bash
+cd datasets
+# Make sure git-xet is installed (https://hf.co/docs/hub/git-xet)
+curl -sSfL https://hf.co/git-xet/install.sh | sh
+git clone https://huggingface.co/datasets/leggedrobotics/hoi-retarget
+```
+
+To convert the local HOI-Retarget Parquet files to SBTO-compatible `.npz`
+references, install `pyarrow` and run:
+```bash
+python -m pip install pyarrow
+python scripts/hoi-retarget-to-omniretarget-format.py
+```
+By default, the script reads `datasets/hoi-retarget/` and writes G1 motions to
+`datasets/hoi-retarget_converted/`, organized by source dataset. It exports
+`qpos` and `fps`, which are the fields SBTO's reference loader reads. The H2
+rows are skipped because this repository's SBTO reference model is the G1. A
+progress bar shows rows processed, the current shard, and the number converted.
+Use `--input`, `--output`, or `--robot-xml` to override the defaults.
+
 ## Usage
 Most of the paramters of SBTO can be set at runtime as command line argument. The code base relies on [hydra](https://hydra.cc/) to do so. Parameters required to instantiate the different classes in the code can be found in the `./conf` sub-directories.
 For more advance usage (if for instance you want to write your own task/solvers), I recommend looking into the different config files to have a better understanding of the repo structure.
