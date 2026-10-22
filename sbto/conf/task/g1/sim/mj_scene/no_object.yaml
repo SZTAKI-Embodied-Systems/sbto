@@ -9,5 +9,5 @@ cfg:
   - sbto/models/unitree_g1/sensors/torso.xml
   - sbto/models/unitree_g1/sensors/self_collision.xml
   xml_contact_pairs_path:
-  - sbto/models/unitree_g1/contact_pairs/minimal.xml
+  - sbto/models/unitree_g1/contact_pairs/full.xml #minimal.xml
   add_body: {}
