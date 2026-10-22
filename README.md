@@ -46,8 +46,8 @@ For more advance usage (if for instance you want to write your own task/solvers)
 ### Loading a motion reference
 To run SBTO on a specific motion reference from the OmniRetarget dataset simply run:
 ```python
-python3 sbto/main.py \
 # Change the solver (cem is the default one)
+python3 sbto/main.py \
 solver=cem \
 task.cfg_ref.motion_path=datasets/robot-object/sub10_largebox_000_original.npz
 ```
@@ -75,7 +75,6 @@ For the OmniRetarget dataset, the reference is a box. For the rollouts one can u
 python3 sbto/main.py \
 solver=cem \
 task.cfg_ref.motion_path=datasets/robot-object/sub10_largebox_000_original.npz \
-# Here the hydra command gets a bit heavy \
 task/g1/sim/mj_scene@task.sim.mj_scene=small_box  # can be chair, shelf, cylinder
 ```
 
@@ -94,6 +93,20 @@ If you don't have any object in your scene use `g1/robot_ref` task:
 python3 sbto/main.py \
 task=g1/robot_ref \
 task.cfg_ref.motion_path=datasets/robot-object/sub10_largebox_000_original.npz
+```
+
+#### Useful motions
+Most used motion. Picking up standard box:
+```python3
+python3 sbto/main.py \
+solver=cem \
+task.cfg_ref.motion_path=datasets/robot-object/sub10_largebox_084_original.npz
+```
+Motion to check for leg collision artifacts:
+```python3
+python3 sbto/main.py \
+task=g1/robot_ref \
+task.cfg_ref.motion_path=datasets/robot-object/sub10_largebox_035_original.npz
 ```
 
 ## Citation
