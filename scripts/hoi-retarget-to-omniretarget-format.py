@@ -28,7 +28,8 @@ DEFAULT_ROBOT_XML = (
     / "sbto"
     / "models"
     / "unitree_g1"
-    / "g1_mjx_no_hands.xml"
+    / "g1_mjx_rubber_hands.xml"
+    #/ "g1_mjx_no_hands.xml"
 )
 ROBOT = "unitree_g1"
 FPS = 30.0

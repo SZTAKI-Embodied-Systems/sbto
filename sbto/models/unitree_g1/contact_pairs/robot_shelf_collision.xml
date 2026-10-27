@@ -19,6 +19,10 @@
     <pair name="right_shoulder_yaw_obj_obj" geom1="right_shoulder_yaw_collision" geom2="obj" condim="1"/>
     <pair name="left_hand_obj_obj" geom1="left_hand_collision" geom2="obj" condim="1"/>
     <pair name="right_hand_obj_obj" geom1="right_hand_collision" geom2="obj" condim="1"/>
+    <pair name="left_fingers_23_obj_obj" geom1="left_fingers_23_collision" geom2="obj" condim="1"/>
+    <pair name="left_fingers_45_obj_obj" geom1="left_fingers_45_collision" geom2="obj" condim="1"/>
+    <pair name="right_fingers_23_obj_obj" geom1="right_fingers_23_collision" geom2="obj" condim="1"/>
+    <pair name="right_fingers_45_obj_obj" geom1="right_fingers_45_collision" geom2="obj" condim="1"/>
     <pair name="left_wrist_obj_obj" geom1="left_wrist_collision" geom2="obj" condim="1"/>
     <pair name="right_wrist_obj_obj" geom1="right_wrist_collision" geom2="obj" condim="1"/>
 
@@ -40,6 +44,10 @@
     <pair name="right_shoulder_yaw_obj_tube_0" geom1="right_shoulder_yaw_collision" geom2="tube_0" condim="1"/>
     <pair name="left_hand_obj_tube_0" geom1="left_hand_collision" geom2="tube_0" condim="1"/>
     <pair name="right_hand_obj_tube_0" geom1="right_hand_collision" geom2="tube_0" condim="1"/>
+    <pair name="left_fingers_23_tube_0" geom1="left_fingers_23_collision" geom2="tube_0" condim="1"/>
+    <pair name="left_fingers_45_tube_0" geom1="left_fingers_45_collision" geom2="tube_0" condim="1"/>
+    <pair name="right_fingers_23_tube_0" geom1="right_fingers_23_collision" geom2="tube_0" condim="1"/>
+    <pair name="right_fingers_45_tube_0" geom1="right_fingers_45_collision" geom2="tube_0" condim="1"/>
     <pair name="left_wrist_obj_tube_0" geom1="left_wrist_collision" geom2="tube_0" condim="1"/>
     <pair name="right_wrist_obj_tube_0" geom1="right_wrist_collision" geom2="tube_0" condim="1"/>
 
@@ -61,6 +69,10 @@
     <pair name="right_shoulder_yaw_obj_tube_1" geom1="right_shoulder_yaw_collision" geom2="tube_1" condim="1"/>
     <pair name="left_hand_obj_tube_1" geom1="left_hand_collision" geom2="tube_1" condim="1"/>
     <pair name="right_hand_obj_tube_1" geom1="right_hand_collision" geom2="tube_1" condim="1"/>
+    <pair name="left_fingers_23_tube_1" geom1="left_fingers_23_collision" geom2="tube_1" condim="1"/>
+    <pair name="left_fingers_45_tube_1" geom1="left_fingers_45_collision" geom2="tube_1" condim="1"/>
+    <pair name="right_fingers_23_tube_1" geom1="right_fingers_23_collision" geom2="tube_1" condim="1"/>
+    <pair name="right_fingers_45_tube_1" geom1="right_fingers_45_collision" geom2="tube_1" condim="1"/>
     <pair name="left_wrist_obj_tube_1" geom1="left_wrist_collision" geom2="tube_1" condim="1"/>
     <pair name="right_wrist_obj_tube_1" geom1="right_wrist_collision" geom2="tube_1" condim="1"/>
 
@@ -82,6 +94,10 @@
     <pair name="right_shoulder_yaw_obj_tube_2" geom1="right_shoulder_yaw_collision" geom2="tube_2" condim="1"/>
     <pair name="left_hand_obj_tube_2" geom1="left_hand_collision" geom2="tube_2" condim="1"/>
     <pair name="right_hand_obj_tube_2" geom1="right_hand_collision" geom2="tube_2" condim="1"/>
+    <pair name="left_fingers_23_tube_2" geom1="left_fingers_23_collision" geom2="tube_2" condim="1"/>
+    <pair name="left_fingers_45_tube_2" geom1="left_fingers_45_collision" geom2="tube_2" condim="1"/>
+    <pair name="right_fingers_23_tube_2" geom1="right_fingers_23_collision" geom2="tube_2" condim="1"/>
+    <pair name="right_fingers_45_tube_2" geom1="right_fingers_45_collision" geom2="tube_2" condim="1"/>
     <pair name="left_wrist_obj_tube_2" geom1="left_wrist_collision" geom2="tube_2" condim="1"/>
     <pair name="right_wrist_obj_tube_2" geom1="right_wrist_collision" geom2="tube_2" condim="1"/>
 
@@ -103,6 +119,10 @@
     <pair name="right_shoulder_yaw_obj_tube_3" geom1="right_shoulder_yaw_collision" geom2="tube_3" condim="1"/>
     <pair name="left_hand_obj_tube_3" geom1="left_hand_collision" geom2="tube_3" condim="1"/>
     <pair name="right_hand_obj_tube_3" geom1="right_hand_collision" geom2="tube_3" condim="1"/>
+    <pair name="left_fingers_23_tube_3" geom1="left_fingers_23_collision" geom2="tube_3" condim="1"/>
+    <pair name="left_fingers_45_tube_3" geom1="left_fingers_45_collision" geom2="tube_3" condim="1"/>
+    <pair name="right_fingers_23_tube_3" geom1="right_fingers_23_collision" geom2="tube_3" condim="1"/>
+    <pair name="right_fingers_45_tube_3" geom1="right_fingers_45_collision" geom2="tube_3" condim="1"/>
     <pair name="left_wrist_obj_tube_3" geom1="left_wrist_collision" geom2="tube_3" condim="1"/>
     <pair name="right_wrist_obj_tube_3" geom1="right_wrist_collision" geom2="tube_3" condim="1"/>
 
@@ -124,6 +144,10 @@
     <pair name="right_shoulder_yaw_obj_planck_0" geom1="right_shoulder_yaw_collision" geom2="planck_0" condim="1"/>
     <pair name="left_hand_obj_planck_0" geom1="left_hand_collision" geom2="planck_0" condim="1"/>
     <pair name="right_hand_obj_planck_0" geom1="right_hand_collision" geom2="planck_0" condim="1"/>
+    <pair name="left_fingers_23_planck_0" geom1="left_fingers_23_collision" geom2="planck_0" condim="1"/>
+    <pair name="left_fingers_45_planck_0" geom1="left_fingers_45_collision" geom2="planck_0" condim="1"/>
+    <pair name="right_fingers_23_planck_0" geom1="right_fingers_23_collision" geom2="planck_0" condim="1"/>
+    <pair name="right_fingers_45_planck_0" geom1="right_fingers_45_collision" geom2="planck_0" condim="1"/>
     <pair name="left_wrist_obj_planck_0" geom1="left_wrist_collision" geom2="planck_0" condim="1"/>
     <pair name="right_wrist_obj_planck_0" geom1="right_wrist_collision" geom2="planck_0" condim="1"/>
 
@@ -145,6 +169,10 @@
     <pair name="right_shoulder_yaw_obj_planck_1" geom1="right_shoulder_yaw_collision" geom2="planck_1" condim="1"/>
     <pair name="left_hand_obj_planck_1" geom1="left_hand_collision" geom2="planck_1" condim="1"/>
     <pair name="right_hand_obj_planck_1" geom1="right_hand_collision" geom2="planck_1" condim="1"/>
+    <pair name="left_fingers_23_planck_1" geom1="left_fingers_23_collision" geom2="planck_1" condim="1"/>
+    <pair name="left_fingers_45_planck_1" geom1="left_fingers_45_collision" geom2="planck_1" condim="1"/>
+    <pair name="right_fingers_23_planck_1" geom1="right_fingers_23_collision" geom2="planck_1" condim="1"/>
+    <pair name="right_fingers_45_planck_1" geom1="right_fingers_45_collision" geom2="planck_1" condim="1"/>
     <pair name="left_wrist_obj_planck_1" geom1="left_wrist_collision" geom2="planck_1" condim="1"/>
     <pair name="right_wrist_obj_planck_1" geom1="right_wrist_collision" geom2="planck_1" condim="1"/>
 

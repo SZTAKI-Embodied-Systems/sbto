@@ -11,7 +11,7 @@ cfg:
   - sbto/models/unitree_g1/sensors/obj.xml
   - sbto/models/unitree_g1/sensors/torso.xml
   xml_contact_pairs_path:
-  - sbto/models/unitree_g1/contact_pairs/full.xml #reduced.xml
+  - sbto/models/unitree_g1/contact_pairs/full_hand.xml #reduced.xml
   - sbto/models/unitree_g1/contact_pairs/robot_obj_collision.xml
   - sbto/models/unitree_g1/contact_pairs/robot_obj.xml
   add_body:

@@ -1,6 +1,6 @@
 <mujoco model="g1 mjx flat terrain scene">
 
-  <include file="g1_mjx_no_hands.xml"/>
+  <include file="g1_mjx_rubber_hands.xml"/> <!-- <include file="g1_mjx_no_hands.xml"/> -->
 
   <statistic center="0 0 0.7" extent="1.2" meansize="0.02"/>
 
